@@ -71,8 +71,8 @@ body {
 		padding: 0 2rem;
 }
 
- body {cursor: url('cursor.gif'), auto;}
-  a, a:hover {cursor: url('link.gif'), auto}
+ body {cursor: url('/images/cursor.gif'), auto;}
+  a, a:hover {cursor: url('/images/link.gif'), auto}
 
 #container {
 	margin-left: auto;
@@ -327,7 +327,7 @@ h1 {
 }
 
 a, a:hover {
-  cursor: url('link.gif'), auto
+  cursor: url('/images/link.gif'), auto
 }
 
 ol, ul {
