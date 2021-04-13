@@ -1,0 +1,147 @@
+
+<html>
+   <head>
+      <title>dress me up!</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="/bloom.js"></script>
+      <script type="text/javascript" src="//www.midijs.net/lib/midi.js"></script>
+      <link rel="stylesheet" href="/homepage.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="theme-color" content="#ff0000">
+      <script>  function playSound(animal) {
+         document.getElementById(animal).play();
+         };
+      </script>
+      <style>
+<!--
+.dragme{position:relative;}
+-->
+</style>
+<script type="text/javascript">
+<!--
+
+var ie=document.all;
+var nn6=document.getElementById&&!document.all;
+
+var isdrag=false;
+var x,y;
+var dobj;
+
+function movemouse(e)
+{
+  if (isdrag)
+  {
+    dobj.style.left = nn6 ? tx + e.clientX - x : tx + event.clientX - x;
+    dobj.style.top  = nn6 ? ty + e.clientY - y : ty + event.clientY - y;
+    return false;
+  }
+}
+
+function selectmouse(e) 
+{
+  var fobj       = nn6 ? e.target : event.srcElement;
+  var topelement = nn6 ? "HTML" : "BODY";
+
+  while (fobj.tagName != topelement && fobj.className != "dragme")
+  {
+    fobj = nn6 ? fobj.parentNode : fobj.parentElement;
+  }
+
+  if (fobj.className=="dragme")
+  {
+    isdrag = true;
+    dobj = fobj;
+    tx = parseInt(dobj.style.left+0);
+    ty = parseInt(dobj.style.top+0);
+    x = nn6 ? e.clientX : event.clientX;
+    y = nn6 ? e.clientY : event.clientY;
+    document.onmousemove=movemouse;
+    return false;
+  }
+}
+
+document.onmousedown=selectmouse;
+document.onmouseup=new Function("isdrag=false");
+
+//-->
+</script>
+
+      <style>
+         .msg {
+         background-color:#000;
+         padding:15px;
+         border: 3px groove red;
+         }
+         iframe {border:4px double #ff0000;}
+         <!--
+            .dragme{position:relative;}
+            -->
+         
+         .container {
+         margin: 0 auto;
+         }
+      </style>
+      <meta name="description" content="my own dressup game! :D">
+      <script src="https://yesterwebring.neocities.org/script.js"></script>
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+   </head>
+   
+   <body data-new-gr-c-s-check-loaded="14.996.0" data-gr-ext-installed="">
+      <div class="crt">
+         <div id="container">
+            <div id="navbar"><div class="nav"></div></div>
+            <div id="main">
+               <article class="contentbg-inside">
+                  <center>
+                     <a href="../dolls.html">take me back</a><br><br>
+                     <div>
+                        <strong>Parts</strong><br><br>
+                        <div class="msg" style="background-color: grey; padding:5px;">
+                           faces<br><br>
+                           <img src="/face1.png" class="dragme" style="z-index:9;"> <img src="/face2.png" class="dragme" style="z-index:9;"> <img src="/face3.png" class="dragme" style="z-index:9;"> <img src="/face4.png" class="dragme" style="z-index:9;"> <img src="/face5.png" class="dragme" style="z-index:9;">
+                           <hr>
+                           shirts<br><br>
+                           <img src="/shirt1.png" class="dragme" style="z-index:9;"> <img src="/shirt2.png" class="dragme" style="z-index:9;"> <img src="/shirt3.png" class="dragme" style="z-index:9;"> <img src="/shirt4.png" class="dragme" style="z-index:9;">
+                           <hr>
+                           accessories<br><br>
+                           <img src="/acc1.png" class="dragme" style="z-index:10;"> <img src="/acc2.png" class="dragme" style="z-index:10;"> <img src="/acc3.png" class="dragme" style="z-index:10;"> <img src="/acc4.png" class="dragme" style="z-index:10;">
+                        </div>
+                     </div>
+                     <br><br>
+                     <strong>dress up</strong>
+                     <div class="msg" style="background-color: grey; padding:5px;">
+                        <img src="/base.png" width="600">
+                     </div>
+                     <br><br>
+                     <div>
+                        <strong>Parts</strong><br><br>
+                        <div class="msg" style="background-color: grey; padding:5px;">
+                           pants<br><br>
+                           <img src="/crust.png" class="dragme" style="z-index:9;"> <img src="/plaid.png" class="dragme" style="z-index:8;"> <img src="/camo.png" class="/dragme" style="z-index:8;"> <img src="/tripp.png" class="dragme" style="z-index:8;">
+                           <hr>
+                           hair<br><br>
+                           <img src="/hair2.png" class="dragme" style="z-index:10;"> <img src="/hair1.png" class="dragme" style="z-index:10;"> <img src="/hair3.png" class="dragme" style="z-index:10;">
+                           <hr>
+                           shoes<br><br>
+                           <img src="/shoes2.png" class="dragme" style="z-index:10;"> <img src="/shoes1.png" class="dragme" style="z-index:10;"> <img src="/shoes3.png" class="dragme" style="z-index:10;"> <img src="/mori310.png" class="dragme" style="z-index:10;">
+                        </div>
+                     </div>
+                  </center>
+               </article>
+               <nav class="nav, starsbg"><div id="left_sidebar"><div class="flair"><br><br></div></div></nav>
+               
+               <aside class="starsbg"><div id="right_sidebar"><div class="rightsidebar"><br></div></div></aside>
+               
+            </div>
+            <footer id="footer" class="starsbg">
+               <center><img src="/prepsdniblinkie.gif" alt="blinkie that says preps dni" height="30"><img src="/shadowkick.gif" alt="shadow the hedgehog kicking the air" height="35"></center>
+               <br>
+               <br>
+               <center>©2005 punx anonymous</center>
+            </footer>
+         </div>
+      </div>
+   </body>
+</html>
