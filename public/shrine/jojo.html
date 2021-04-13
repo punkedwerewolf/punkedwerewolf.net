@@ -1,0 +1,207 @@
+<html><head><title>ORA ORA ORA</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="/bloom.js"></script>
+<script type="text/javascript" src="///www.midijs.net/lib/midi.js"></script>
+<link rel="stylesheet" href="jojo.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="/jjbafavicon.png" type="image/gif" >
+<script>  function playSound(animal) {
+  document.getElementById(animal).play();
+};
+</script>
+</head><body data-new-gr-c-s-check-loaded="14.996.0" data-gr-ext-installed="">
+
+<center>
+	<div class="crt">
+		<div id="container">
+			<div id="navbarr"><div class="nav" >
+			<a href="/shrine.html">last train home</a>
+</div></div>
+			<div id="main">
+				<article class="contentbg-inside">
+					<br class="clear">
+					<center>
+					<img src="/jjbalogo.png" width="500"><br><br>
+					
+					<div class="msg">
+					<strong class="gradient-text">The story of how I got into JoJo's</strong><br><br>
+					<img src="/jojotv.gif" align="right" style="margin:3px;">
+					it was March of 2018. My dad's side of the family moved to my state and that meant I got to hang out with the cool cousin. He turned out to be a huge ass weeb, and at the time so was I. He made me watch this video on what the fuck jojos was. He also had physical jojos manga??? fuckin nerd. Anyways, I had to get into this anime whether I liked it or not, but in my case I did like it and I ended up liking it as more time went on<br>
+					</div>
+					<br>
+					<img src="/maskdiv.png"> <img src="/maskdiv.png"><br>
+					<br><br>
+					<div class="column left">
+					<div class="randommm">
+					which of the jojo openings is your favorites? mine is probably crazy noisy bizarre town..its so damn funky! i sing along every time i listen to it
+					</div>
+					</div>
+				
+					<div class="column right">
+					<div id="player"></div>
+					</div>
+					
+					
+					
+					
+					
+					
+					</center>
+					<br><br>
+					<img src="/tbc.png" width="200">
+					</article>
+					
+				<nav class="nav, starsbg">
+					<div id="leftsidebar"><div class="flair"><br><br>
+					<center>
+					<img src="/jjbastamp.png" height="56" width="99"><img src="/jjbastamp1.gif" height="56" width="99"><img src="/jjbastamp2.gif" height="56" width="99"><img src="/jjbastamp7.gif" height="56" width="99">
+          </center>
+          </div></div></nav>
+				
+				<aside class="starsbg">
+					<div id="rightsidebar"><div class="rightsidebar"><br><br>
+					<div class="container">
+					<center>
+					<img src="/jjbastamp3.png" height="56" width="99"><img src="/jjbastamp4.gif" height="56" width="99"><img src="/jjbastamp5.png" height="56" width="99"><img src="/jjbastamp6.gif" height="56" width="99">
+					<br><br>
+          </center>
+          </div></div></div></aside>
+          
+<img src="/diobrando.png" style="position:fixed;bottom:5px;left:50px;width:15%;z-index:10;">
+<img src="/jotarokujo.png" style="position:fixed;bottom:5px;right:50px;width:12%;z-index:10;">
+
+			</div>
+			<footer id="footer" class="starsbg"></footer>
+		</div>
+	</div>
+	</center>
+	
+	<style>
+	span.pic {
+  display:none;
+}
+body.Connected {
+  background-color:red;
+}
+.cbox {
+  margin-left:auto;
+margin-right:auto;
+width:150px;
+}
+
+	#main>nav, #main>aside {
+padding-left:0px;
+padding-right:30px;
+}
+
+	.msg {
+	  background-color:#000;
+	  padding:15px;
+	  border: 3px groove yellow;
+	  background-image: url('');
+	  color: white;
+	  width: 600px;
+	}
+	
+	.randommm {
+	  background-color:#000;
+	  padding:15px;
+	  border: 3px groove yellow;
+	  background-image: url('');
+	  color: white;
+	  width: 300px;
+	}
+	
+	iframe {border:4px double yellow;}
+	
+	// RESET
+body {
+  a {
+    text-decoration: none;
+    font-size: 50px;
+  }
+}
+
+// STYLE
+body {
+  a {
+    color: #111;
+    &:hover {
+      color: #555;
+    }
+  }
+}
+.container {
+  margin: 0 auto;
+}
+
+	</style>
+	<script>
+    /* Replace This Code - get Value from playlist page and place it here */
+    var playlistId = "PLvR1Vs9Qj4fk-VnGR2xUtNLvLcwBwGB6V";
+    var tag = document.createElement('script');
+		tag.src = "https://www.youtube.com/iframe_api";
+
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    var player;
+
+    function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+            height: '165',
+            width: '300',
+            events: {
+                'onReady': onPlayerReady,
+                'onStateChange': onPlayerStateChange
+            }
+
+        });
+    }
+
+
+    var playlistArray;
+    var playListArrayLength;
+    var maxNumber;
+
+    var oldNumber = 0;
+    var NewNumber = 0;
+
+    function newRandomNumber() {
+        oldNumber = NewNumber;
+        NewNumber = Math.floor(Math.random() * maxNumber);
+        if (NewNumber == oldNumber) {
+            newRandomNumber();
+        } else {
+            return NewNumber;
+        }
+    }
+
+function onPlayerReady(event) {
+    player.loadPlaylist({
+        'listType': 'playlist',
+        'list': playlistId
+    });
+}
+
+var firstLoad = true;
+function onPlayerStateChange(event) {
+    console.log(event.data);
+    if (event.data == YT.PlayerState.ENDED) {
+        player.playVideoAt(newRandomNumber());   
+    } else {
+        if (firstLoad && event.data == YT.PlayerState.PLAYING) {
+            firstLoad = false;
+            playlistArray = player.getPlaylist();
+            playListArrayLength = playlistArray.length;
+            maxNumber = playListArrayLength;
+            NewNumber = newRandomNumber();
+            player.playVideoAt(newRandomNumber());
+        }
+    }
+}    
+    
+</script>
+</body></html>
