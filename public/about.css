@@ -161,10 +161,7 @@ article .contentbg-inside {
   
   }
 
-
-
 	/* add this to fit to width of screen: height:85vh; */
-
 
 #main>article {
 	flex: 1;
@@ -184,25 +181,12 @@ article {
 	padding-top: 35px;
 }
 
-footer,
-nav,
-aside {
+footer {
 	padding: 0;
 	line-height: 25px;
 	font-weight: normal;
 	font-family: 'momstypewriterregular';
 }
-
-.rightsidebar a {
-	font-size: 12px;
-	line-height: 12px;
-	text-decoration: none;
-}
-
-#left_sidebar {
-	text-align: center;
-}
-
 
 /* Navbar styling */
 
@@ -279,44 +263,6 @@ footer {
 	padding-right: 125px;
 }
 
-/* This is for styling your links to your graphics pages */
-
-.graphicslinks,
-.graphicslinks a {
-	font-size: 24px;
-	line-height: 45px;
-	font-weight: normal;
-	font-style: italic;
-}
-
-/* This is for displaying tiled bgs on graphics page */
-
-.tilebg img {
-	width: 75px;
-	height: 75px;
-}
-
-.tilebgnew img {
-	height:150px;
-	width:auto;
-}
-
-/* This is for displaying dividers on graphics page */
-
-.divider {
-	display: block;
-	max-width: 100%;
-}
-
-.divider img {
-	display: block;
-	max-width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 25px;
-	padding-bottom: 25px;
-}
-
 /* Table Styling */
 
 table {
@@ -332,18 +278,6 @@ tr:nth-child(even) {
 
 td {
 	padding: 10px;
-}
-
-/* This is possibly for some kind of blinking animation? */
-
-.blink_me {
-	animation: blinker 1.5s linear infinite;
-}
-
-@keyframes blinker {
-	50% {
-		opacity: 0;
-	}
 }
 
 /* These are miscellaneous styles */
