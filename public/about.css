@@ -121,9 +121,7 @@ article .contentbg-inside {
   border: solid 3px red;
   overflow-y: scroll;
  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+ text-align: center;
   }
 
 .right-bottom { 
