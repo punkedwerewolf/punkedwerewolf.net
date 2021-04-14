@@ -252,43 +252,6 @@ footer {
 	padding-right: 125px;
 }
 
-/* This is for styling your links to your graphics pages */
-
-.graphicslinks,
-.graphicslinks a {
-	font-size: 24px;
-	line-height: 45px;
-	font-weight: normal;
-	font-style: italic;
-}
-
-/* This is for displaying tiled bgs on graphics page */
-
-.tilebg img {
-	width: 75px;
-	height: 75px;
-}
-
-.tilebgnew img {
-	height:150px;
-	width:auto;
-}
-
-/* This is for displaying dividers on graphics page */
-
-.divider {
-	display: block;
-	max-width: 100%;
-}
-
-.divider img {
-	display: block;
-	max-width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 25px;
-	padding-bottom: 25px;
-}
 
 /* Table Styling */
 
@@ -357,6 +320,9 @@ a {
 	font-weight:normal;
 }
 
+iframe {
+	border: double red 4px;
+}
 /* All stuff below here is for viewing your site on different devices */
 
 @media screen and (max-width: 1536px) {
