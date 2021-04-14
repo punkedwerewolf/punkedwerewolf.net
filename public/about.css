@@ -110,10 +110,12 @@ article .contentbg-inside {
   grid-area: me; 
   overflow-x: hidden;
   overflow-y: hidden;
+ text-align: center;
   }
   
   .me2 { 
   grid-area: me2;
+ text-align: center;
   }
 
 .right { 
@@ -127,34 +129,35 @@ article .contentbg-inside {
 .right-bottom { 
   grid-area: right-bottom; 
   border: solid 3px red; 
+ text-align: center;
   }
 
 .top-middle { 
   grid-area: top-middle; 
   border: solid 3px red;
   overflow-y: hidden;
+ text-align: center;
 }
 
 .bottom-middle { 
   grid-area: bottom-middle; 
   border: solid 3px red;
   overflow-y: hidden;
+ text-align: center;
   }
 
 .left { 
   grid-area: left; 
   border: solid 3px red;
   overflow-y: auto;
+ text-align: center;
   
   }
   
   .blinkies { 
   grid-area: blinkies; 
   border: none; 
- display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+ text-align: center;
   
   }
 
