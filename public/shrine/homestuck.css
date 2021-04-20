@@ -52,7 +52,7 @@ body {
 	font-family: 'Comic Sans MS';
 	color: #ffffff;
 	font-size: 20px;
-  background-image:url('/skaiabg.png');
+  background-image:url('/images/shrines/hs/skaiabg.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
 	background-size: 100% 100%;
@@ -61,8 +61,8 @@ body {
 		padding: 0 2rem;
 }
 
-  body {cursor: url('/sburbcursor.png'), auto;}
-  a, a:hover {cursor: url('/sburblinkcursor.gif'), pointer}
+  body {cursor: url('/images/shrines/hs/sburbcursor.png'), auto;}
+  a, a:hover {cursor: url('/images/shrines/hs/sburblinkcursor.gif'), pointer}
 
 #container {
 	margin-left: auto;
