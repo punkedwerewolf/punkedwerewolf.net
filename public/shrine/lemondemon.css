@@ -59,7 +59,7 @@ body {
 	font-family: 'grinchedregular';
 	color: #ffffff;
 	font-size: 11px;
-  background-image:url('/stars3.gif');
+  background-image:url('/images/shrines/ld/stars3.gif');
   background-repeat: repeat;
   background-attachment: fixed;
 	background-size: 10%;
@@ -68,8 +68,8 @@ body {
 		padding: 0 2rem;
 }
 
- body {cursor: url('/cursor.gif'), auto;}
-  a, a:hover {cursor: url('/link.gif'), auto}
+ body {cursor: url('/images/shrines/ld/cursor.gif'), auto;}
+  a, a:hover {cursor: url('/images/shrines/ld/link.gif'), auto}
 
 #container {
 	margin-left: auto;
