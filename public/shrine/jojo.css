@@ -66,7 +66,7 @@ body {
 	font-family: 'sf_fedoraregular';
 	color: #ffffff;
 	font-size: 11px;
-  background-image:url('/jjbabg.jpg');
+  background-image:url('/images/shrines/jojo/jjbabg.jpg');
   background-repeat: repeat;
   background-attachment: fixed;
 	background-size: 10%;
@@ -75,8 +75,8 @@ body {
 		padding: 0 2rem;
 }
 
-  body {cursor: url('/jojocursor.png'), auto;}
-  a, a:hover {cursor: url('/jojocursor.png'), pointer}
+  body {cursor: url('/images/shrines/jojo/jojocursor.png'), auto;}
+  a, a:hover {cursor: url('/images/shrines/jojo/jojocursor.png'), pointer}
 
 #container {
 	margin-left: auto;
