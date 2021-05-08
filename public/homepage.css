@@ -87,11 +87,13 @@ body {
 #right {
 	width: 165px;
 	float: right;
+	text-align: center;
 }
 
 #left {
 	width: 165px;
 	float: left;
+	text-align: center;
 }
 
 #footer {
