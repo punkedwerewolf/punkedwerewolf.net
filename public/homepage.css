@@ -82,12 +82,25 @@ body {
 }
 
 #main {
+	height: 1300px;
+	width: 100%;
+	position: relative;
+	margin: 0px;
+	background-color: purple;
 }
 
 #right {
 }
 
 #left {
+}
+
+#footer {
+	position: relative;
+	background-color: #000;
+	width: 100%;
+	height: 100px;
+	background-color: yellow;
 }
 
 /* ccursor stuff */
