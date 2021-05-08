@@ -86,7 +86,6 @@ body {
 	top: 135px;
 	height: 1300px;
 	width: 100%;
-	position: relative;
 	margin: 0px;
 	background-color: purple;
 }
@@ -98,8 +97,7 @@ body {
 }
 
 #footer {
-	position: fixed;
-	top: 1435px;
+	top: 0px;
 	position: relative;
 	background-color: #000;
 	width: 100%;
