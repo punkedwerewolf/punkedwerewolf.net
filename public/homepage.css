@@ -61,14 +61,9 @@ body {
 }
 
 #header {
-	position: relative;
-	background-color: #ff0000;
-	top: 0px;
 	width: 100%;
 	height: 100px;
-	background-image: url('/images/headerbg.jpg');
-	background-repeat: repeat-x;
-	background-size: 70px 100px;
+	background: #ff0000 70px 100px url('/images/headerbg.jpg') repeat-x;
 }
 
 #main {
@@ -113,10 +108,8 @@ body {
 /* navbar styles */
 
 #nav {
-	background-image: url('/images/blackbar.jpg');
-	background-size: 100% 100%;
-	position: relative;
-	background-color: #000;
+	background: #000 100% 100% url('/images/blackbar.jpg');
+	float: left;
 	width: 100%;
 	height: 35px;
 	border-top: 2px solid white;
