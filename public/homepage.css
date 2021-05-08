@@ -204,6 +204,10 @@ td {
 		 
 /* These are miscellaneous styles */
 
+h1 {
+	font-family: 'my_chemical_romanceregular';
+}
+
 /* All stuff below here is for viewing your site on different devices */
 
 @media screen and (max-width: 1536px) {
