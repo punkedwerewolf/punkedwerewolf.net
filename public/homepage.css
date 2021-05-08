@@ -61,13 +61,15 @@ body {
 }
 
 #header {
+	background-color: #ff0000;
 	width: 100%;
 	height: 100px;
-	background: #ff0000 70px 100px url('/images/headerbg.jpg') repeat-x;
+	background-image: url('/images/headerbg.jpg');
+	background-repeat: repeat-x;
+	background-size: 70px 100px;
 }
 
 #main {
-	position: relative;
 	height: auto;
 	width: 100%;
 	margin: 0px;
@@ -83,29 +85,32 @@ body {
 	width: 165px;
 	float: right;
 	text-align: center;
-	height: 100%;
 }
 
 #left {
 	width: 165px;
 	float: left;
 	text-align: center;
-	height: 100%;
 }
 
 #footer {
-	background: #ff0000 100% 110px url('/images/footerbg.jpg') repeat-x;
+	background-color: #ff0000;
+	background-image: url('/images/footerbg.jpg');
+	background-repeat: repeat-x;
+	background-size: 100% 110px;
 	width: 100%;
 	height: 110px;
-	border-top: 1px white solid;
+	border-top: 2px white solid;
 	
 }
 
 /* navbar styles */
 
 #nav {
-	background: #000 100% 100% url('/images/blackbar.jpg');
+	background-image: url('/images/blackbar.jpg');
 	float: left;
+	background-size: 100% 100%;
+	background-color: #000;
 	width: 100%;
 	height: 35px;
 	border-top: 2px solid white;
