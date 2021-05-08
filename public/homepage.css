@@ -82,6 +82,8 @@ body {
 }
 
 #main {
+	position: fixed;
+	top: 135px;
 	height: 1300px;
 	width: 100%;
 	position: relative;
@@ -96,6 +98,8 @@ body {
 }
 
 #footer {
+	position: fixed;
+	top: 1435px;
 	position: relative;
 	background-color: #000;
 	width: 100%;
