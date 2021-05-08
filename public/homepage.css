@@ -140,7 +140,7 @@ body {
 	display: block;
 	font-size: .7em;
 	padding: 11px 10px 10px;
-	text-transform: uppercase
+	text-transform: uppercase;
 }
 
 #nav a.current, #nav a:hover {
