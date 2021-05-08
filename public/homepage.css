@@ -66,7 +66,7 @@ body {
 	height: 100px;
 	background-image: url('/images/headerbg.jpg');
 	background-repeat: repeat-x;
-	background-size: 100px 100%;
+	background-size: 70px 100px;
 }
 
 #nav {
@@ -75,8 +75,10 @@ body {
 	top: 100px;
 	width: 100%;
 	height: 35px;
-	border-top: 3px solid white;
-	border-bottom: 3px solid white;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	background-image: url('/images/blackbar.jpg');
+	background-size: 100% 100%;
 }
 
 #right {
