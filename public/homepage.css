@@ -166,7 +166,7 @@ td {
 	padding: 10px;
 }
 
-/* This is possibly for some kind of blinking animation? */
+/* animations */
 
 .blink_me {
 	animation: blinker 1.5s linear infinite;
@@ -177,7 +177,20 @@ td {
 		opacity: 0;
 	}
 }
-
+ .pic
+         {
+         -webkit-animation: mover 1s infinite  alternate;
+         animation: mover 2s infinite  alternate;
+         }
+         @-webkit-keyframes mover {
+         0% { transform: translateY(0); }
+         100% { transform: translateY(-15px); }
+         }
+         @keyframes mover {
+         0% { transform: translateY(0); }
+         100% { transform: translateY(-15px); }
+         }
+		 
 /* These are miscellaneous styles */
 
 /* All stuff below here is for viewing your site on different devices */
