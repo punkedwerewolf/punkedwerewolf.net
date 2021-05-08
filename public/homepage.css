@@ -81,6 +81,9 @@ body {
 	border-bottom: 2px solid white;	
 }
 
+#main {
+}
+
 #right {
 }
 
@@ -193,24 +196,49 @@ td {
 /* All stuff below here is for viewing your site on different devices */
 
 @media screen and (max-width: 1536px) {
+	body {
+	zoom: 80%
+	}
 }
+
 @media screen and (max-width: 1440px) {
+	body {
+	zoom: 75%
+	}
 }
 
 @media screen and (max-width: 1366px) {
+	body {
+	zoom: 70%
+	}
 }
 
 @media screen and (max-width: 1280px) {
+	body {
+	zoom: 65%
+	}
 }
 
 @media screen and (max-width: 1024px) {
- }
+	body {
+	zoom: 60%
+	}
+}
 
 @media screen and (max-width: 992px) {
+	body {
+	zoom: 55%
+	}
 }
 
 @media screen and (max-width: 800px) {
+	body {
+	zoom: 50%
+	}
 }
 
 @media screen and (max-width: 600px) {
+	body {
+	zoom: 45%
+	}
 }
