@@ -42,17 +42,9 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-/* I think this is also part of the reset */
-
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
-
-/* Not entirely sure but I think this is necessary lol */
-
-* {
-	box-sizing: border-box;
 }
 
 /* Meat and Potatoes (main layout stuff) */
@@ -63,27 +55,34 @@ body {
 	font-family: 'momstypewriterregular';
 	color: #ffffff;
 	font-size: 11px;
-  background-repeat: repeat;
-  background-attachment: fixed;
-	background-size: 10%;
-	height: 100%;
 	line-height: 1;
-		padding: 0 2rem;
 }
+
+#header {
+	position: fixed;
+	background-color: #ff0000;
+	top: 0px;
+	width: 100%;
+	height: 150px;
+	background-image: url('/images/headerbg.jpg');
+	background-repeat: repeat-x;
+	background-size: 100% 150px;
+}
+
+#right {
+}
+
+#left {
+}
+
+
+
+/* ccursor stuff */
 
  body {cursor: url('/images/cursor.gif'), auto;}
-  a, a:hover {cursor: url('/images/link.gif'), auto}
+ a, a:hover {cursor: url('/images/link.gif'), auto}
 
-#container {
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 10%;
-	padding-right: 10%;
-}
-
-article .contentbg-inside {
- text-align: center; 
-}
+/* silly little layouts */
 
 .center {
   display: block;
@@ -98,134 +97,17 @@ article .contentbg-inside {
   margin-right: auto;
 }
 
-#main {
-	display: flex;
-	height: auto;
-	min-width: 700px;
-}
+
 .msg {
          background-color:#000;
          padding:15px;
          border: 3px groove red;
 }
 
-.updates {
-         height: 250px;
-         padding:15px;
-         border: 3px groove red;
-         overflow:auto;
-         font-size:12px;
-         line-height:16px;
-         padding-right:50px;
-         }
-         
-	/* add this to fit to width of screen: height:85vh; */
-}
-
-#main>article {
-	flex: 1;
-}
-
-#main>nav {
-  order: -1;
-    flex: 0 0 11.5vw;
-    font-size: 15px;
-    padding-top:50px;
-    padding-left:25px;
-    padding-right:25px;
-    padding-bottom:50px;
-}
-
-#main>aside {
-  order: 1;
-    flex: 0 0 11.5vw;
-    font-size: 15px;
-    padding-top:50px;
-    padding-left:25px;
-    padding-right:25px;
-    padding-bottom:50px;
-}
-
-article {
-	background-repeat: repeat;
-	letter-spacing: 1.5px;
-	height: auto;
-	font-family: 'momstypewriterregular';
-	font-size: 16px;
-	width: 100%;
-	line-height: 22px;
-	padding-left: 65px;
-  padding-right: 65px;
-	padding-bottom: 65px;
-	padding-top: 35px;
-}
-
-footer,
-nav,
-aside {
-	padding: 0;
-	line-height: 25px;
-	font-weight: normal;
-	font-family: 'momstypewriterregular';
-}
-
-.rightsidebar a {
-	font-size: 12px;
-	line-height: 12px;
-	text-decoration: none;
-}
-
-#left_sidebar {
-	text-align: center;
-}
-
 
 /* Navbar styling */
 
-#navbar {
-	line-height: 25px;
-	font-weight: normal;
-	font-family: 'my_chemical_romanceregular';
-	font-size: 30px;
-	width: 100%;
-	z-index:99;
-	margin-top:5%;
-}
-
-#navbar ul li {
-	list-style-type: none;
-	display: inline-block;
-	text-align: center;
-	font-size: 20px;
-}
-
-#navbar ul {
-	padding-left: 0;
-	display: inline-block;
-	width: 100%;
-	text-align: center;
-}
-
-#navbar li {
-	padding: 2px;
-	margin-top: 1%;
-	margin-bottom: 1%;
-	background-color:#000000;
-}
-
-#navbar li a {
-	text-decoration: none;
-	color: white;
-	font-family: 'my_chemical_romanceregular';
-	padding:10px;
-}
-
 /* Footer Styling */
-
-footer {
-	color: white;
-	padding: 1%;
-}
 
 /* Scrollbar Styling */
 
@@ -236,7 +118,6 @@ footer {
 ::-webkit-scrollbar-thumb {
 	background: #ff0000;
 }
-
 
 /* This lets you use div class="column left" and "column right" for two columns */
 
@@ -250,23 +131,6 @@ footer {
 
 .right {
 	width: 50%;
-}
-
-/* I don't think we need this but I'm too scared to remove it lol */
-
-.item-left,
-.item-right {
-	font-size: 15px;
-	vertical-align: center;
-}
-
-.item-left {
-	padding-left: 125px;
-}
-
-.item-right {
-	text-align: right;
-	padding-right: 125px;
 }
 
 
@@ -301,242 +165,27 @@ td {
 
 /* These are miscellaneous styles */
 
-h1 {
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-a, a:hover {
-  cursor: url('/images/link.gif'), auto
-}
-
-ol, ul {
-	list-style: none;
-}
-
-em {
-  font-style:italic;
-}
-
-strong {
-  font-weight:normal;
-  color: #ff0000;
-}
-
-.clear {
-	clear: both;
-}
-
-.introtxt {
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-a {
-	color: white;
-	font-weight:normal;
-}
-
-iframe {
-	border: double red 4px;
-}
 /* All stuff below here is for viewing your site on different devices */
 
 @media screen and (max-width: 1536px) {
-    article {
-	background-repeat: repeat;
-	letter-spacing: 1.5px;
-	height: auto;
-	font-family: 'momstypewriterregular';
-	font-size: 16px;
-	width: 100%;
-	line-height: 17px;
-	padding-left: 30px;
-  padding-right: 30px;
-	padding-bottom: 40px;
-	padding-top: 15px;
-	min-width: 770px;
 }
-
-#container {
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 4%;
-	padding-right: 4%;
-	zoom: 90%;
-}
-}
-
 @media screen and (max-width: 1440px) {
-    article {
-	background-repeat: repeat;
-	letter-spacing: 1.5px;
-	height: auto;
-	font-family: 'momstypewriterregular';
-	font-size: 16px;
-	width: 100%;
-	line-height: 18px;
-	padding-left: 30px;
-  padding-right: 30px;
-	padding-bottom: 40px;
-	padding-top: 15px;
-	min-width: 770px;
-}
-
-#container {
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 2%;
-	padding-right: 2%;
-	zoom: 80%;
-}
 }
 
 @media screen and (max-width: 1366px) {
-    article {
-	background-repeat: repeat;
-	letter-spacing: 1.5px;
-	height: auto;
-	font-family: 'momstypewriterregular';
-	font-size: 16px;
-	width: 100%;
-	line-height: 19px;
-	padding-left: 25px;
-  padding-right: 25px;
-	padding-bottom: 40px;
-	padding-top: 15px;
-	min-width: 770px;
-}
-
-#container {
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 1%;
-	padding-right: 1%;
-	zoom: 80%;
 }
 
 @media screen and (max-width: 1280px) {
-    article {
-	background-repeat: repeat;
-	letter-spacing: 1.5px;
-	height: auto;
-	font-family: 'momstypewriterregular';
-	font-size: 16px;
-	width: 100%;
-	line-height: 20px;
-	padding-left: 20px;
-  padding-right: 20px;
-	padding-bottom: 40px;
-	padding-top: 15px;
-	min-width: 770px;
-}
-
-#container {
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 1%;
-	padding-right: 1%;
-	zoom: 70%;
-}
 }
 
 @media screen and (max-width: 1024px) {
-    article {
-	background-repeat: repeat;
-	letter-spacing: 1.5px;
-	height: auto;
-	font-family: 'momstypewriterregular';
-	font-size: 16px;
-	width: 100%;
-	line-height: 23px;
-	padding-left: 20px;
-  padding-right: 20px;
-	padding-bottom: 40px;
-	padding-top: 15px;
-	min-width: 770px;
-}
-
-#container {
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 1%;
-	padding-right: 1%;
-	zoom: 70%;
-}
-}
+ }
 
 @media screen and (max-width: 992px) {
-    article {
-	background-repeat: repeat;
-	letter-spacing: 1.5px;
-	height: auto;
-	font-family: 'momstypewriterregular';
-	font-size: 16px;
-	width: 100%;
-	line-height: 24px;
-	padding-left: 15px;
-  padding-right: 15px;
-	padding-bottom: 40px;
-	padding-top: 15px;
-	min-width: 770px;
-}
-
-#container {
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 0%;
-	padding-right: 0%;
-	zoom: 60%;
-}
 }
 
 @media screen and (max-width: 800px) {
-    article {
-	background-repeat: repeat;
-	letter-spacing: 1.5px;
-	height: auto;
-	font-family: 'momstypewriterregular';
-	font-size: 16px;
-	width: 100%;
-	line-height: 25px;
-	padding-left: 15px;
-  padding-right: 15px;
-	padding-bottom: 40px;
-	padding-top: 15px;
-	min-width: 770px;
-}
-
-#container {
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 0%;
-	padding-right: 0%;
-	zoom: 60%;
-}
 }
 
 @media screen and (max-width: 600px) {
-  article {
-	background-repeat: repeat;
-	letter-spacing: 1.5px;
-	height: auto;
-	font-family: 'momstypewriterregular';
-	font-size: 16px;
-	width: 100%;
-	line-height: 30px;
-	padding-left: 10px;
-  padding-right: 10px;
-	padding-bottom: 40px;
-	padding-top: 15px;
-	min-width: 770px;
-}
-
-#container {
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 0%;
-	padding-right: 0%;
-	zoom: 50%;
-}
 }
