@@ -90,8 +90,6 @@ body {
 #left {
 }
 
-
-
 /* ccursor stuff */
 
  body {cursor: url('/images/cursor.gif'), auto;}
@@ -114,15 +112,10 @@ body {
 
 
 .msg {
-         background-color:#000;
-         padding:15px;
-         border: 3px groove red;
+    background-color:#000;
+    padding:15px;
+    border: 3px groove red;
 }
-
-
-/* Navbar styling */
-
-/* Footer Styling */
 
 /* Scrollbar Styling */
 
@@ -196,49 +189,33 @@ td {
 /* All stuff below here is for viewing your site on different devices */
 
 @media screen and (max-width: 1536px) {
-	body {
-	zoom: 80%;
-	}
+	body { zoom: 80%; }
 }
 
 @media screen and (max-width: 1440px) {
-	body {
-	zoom: 75%;
-	}
+	body { zoom: 75%; }
 }
 
 @media screen and (max-width: 1366px) {
-	body {
-	zoom: 70%;
-	}
+	body { zoom: 70%; }
 }
 
 @media screen and (max-width: 1280px) {
-	body {
-	zoom: 65%;
-	}
+	body { zoom: 65%; }
 }
 
 @media screen and (max-width: 1024px) {
-	body {
-	zoom: 60%;
-	}
+	body { zoom: 60%; }
 }
 
 @media screen and (max-width: 992px) {
-	body {
-	zoom: 55%;
-	}
+	body { zoom: 55%; }
 }
 
 @media screen and (max-width: 800px) {
-	body {
-	zoom: 50%;
-	}
+	body { zoom: 50%; }
 }
 
 @media screen and (max-width: 600px) {
-	body {
-	zoom: 45%;
-	}
+	body { zoom: 45%; }
 }
