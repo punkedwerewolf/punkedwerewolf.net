@@ -82,20 +82,20 @@ body {
     border: 1px solid #8E0909;
     padding: 15px 20px 5px;
     margin: 0 195px;
-    height: 100%;
+    height: auto;
 }
 #right {
 	width: 165px;
 	float: right;
 	text-align: center;
-	height: 100%;
+	height: auto;
 }
 
 #left {
 	width: 165px;
 	float: left;
 	text-align: center;
-	height: 100%;
+	height: auto;
 }
 
 #footer {
