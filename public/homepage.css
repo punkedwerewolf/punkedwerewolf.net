@@ -69,7 +69,9 @@ body {
 	background-size: 70px 100px;
 }
 
-nav {
+#nav {
+	background-image: url('/images/blackbar.jpg');
+	background-size: 100% 100%;
 	position: fixed;
 	background-color: #000;
 	top: 100px;
@@ -77,11 +79,6 @@ nav {
 	height: 35px;
 	border-top: 2px solid white;
 	border-bottom: 2px solid white;	
-}
-
-#nav {
-	background-image: url('/images/blackbar.jpg');
-	background-size: 100% 100%;
 }
 
 #right {
