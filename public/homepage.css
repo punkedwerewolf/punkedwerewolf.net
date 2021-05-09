@@ -86,12 +86,14 @@ body {
 	width: 165px;
 	float: right;
 	text-align: center;
+	z-axis: 99999;
 }
 
 #left {
 	width: 165px;
 	float: left;
 	text-align: center;
+	z-axis: 99999;
 }
 
 #footer {
