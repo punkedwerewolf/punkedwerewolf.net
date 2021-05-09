@@ -283,6 +283,7 @@ span {
 	background-color: #ff0000;
 	color: #fff;
 	font-weight: bold;
+	padding: 3px;
 }
 
 /* All stuff below here is for viewing your site on different devices */
