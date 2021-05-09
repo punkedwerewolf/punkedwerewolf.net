@@ -262,6 +262,11 @@ a:hover, a:active, a:visited {
   color: #000;
 }
 
+strong {
+  color: #ff0000;
+  font-weight: bold;
+}
+
 /* All stuff below here is for viewing your site on different devices */
 
 @media screen and (max-width: 1536px) {
