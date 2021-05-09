@@ -245,6 +245,23 @@ td {
 		 
 /* These are miscellaneous styles */
 
+a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+a:hover, a:active, a:visited {
+	color: #ff0000;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+::selection {
+  background: #ff0000;
+  color: #000;
+}
+
 /* All stuff below here is for viewing your site on different devices */
 
 @media screen and (max-width: 1536px) {
