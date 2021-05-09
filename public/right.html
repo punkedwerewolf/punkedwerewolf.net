@@ -1,0 +1,54 @@
+<style>
+:root {
+  --backcolor: #000;
+  --spancolor: #ff0000;
+  --pcolor: #fff;
+  --ringwidth: 160px;
+  --ringheight: 230px;
+  --spansize: 15px;
+  --spanfamily: 'my_chemical_romanceregular';
+  --spanlineheight: 15px;
+  --psize: 12px;
+  --plineheight: 12px;
+  --pfamily: 'momstypewriterregular';
+  --brdrtop: 3px outset #fff;
+  --brdrleft: 3px outset #fff;
+  --brdrright: 3px outset #ff0000;
+  --brdrbottom: 3px outset #ff0000;
+  --headerbg: #ff0000;
+}
+
+</style>
+<script src="https://netescape.neocities.org/ring.js"></script>
+<br>
+<a href="https://punkedwerewolf.net/" target="_blank" class="blink_me">Follow me on neocities!</a><br><br><br>
+<a href="https://neocities.org/site/punkedwerewolf"><img src="/images/graphics/buttons/punkedwerewolfbutton.gif"></a><br><br><br>
+
+ <a href="http://users3.smartgb.com/g/g.php?a=s&i=g36-31507-f2"><img alt="Guestbook" src="/images/sidebars/guestbook.gif" width="87"></a><br><br><br>
+ 
+<a href="https://corq.neocities.org/"><img src="/images/graphics/buttons/box-old.png" width="88"></a><a href="https://discord.gg/UehyyWWdCH"><img src="/images/graphics/buttons/1point0.gif" width="88"></a><br><br><br>
+
+ <a href="mailto: punkedwerewolf@protonmail.com"><img src="/images/sidebars/email.gif"></a><br><br><br>
+ 
+ <p><span id="hitcount"></span><br>bodies in the trunk</p><br><br><br>
+
+<script>
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      var site_data = JSON.parse(this.responseText);
+      var num_arr = site_data.info.views.toString().split("");
+      var num_str = "";
+      for (i = 0; i < num_arr.length; i++) {
+        num_str += num_arr[i];
+        if ( (num_arr.length-1 - i) % 3 == 0 && (num_arr.length-1 - i) != 0 ) {num_str += ",";}
+      }
+      document.getElementById("hitcount").innerHTML = num_str;
+    }
+  };
+  xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=punkedwerewolf", true);
+  xhttp.send();
+</script>
+
+<ring-css site="https://punkedwerewolf.net/"></ring-css>
+<br><br>
