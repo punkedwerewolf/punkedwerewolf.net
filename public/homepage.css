@@ -74,6 +74,7 @@ body {
 	width: 100%;
 	margin: 0px;
 	background-color: #000;
+	display: block;
 }
 #cont {
     border: 1px solid #8E0909;
