@@ -108,6 +108,11 @@ body {
 	text-decoration: underline;
 }
 
+.clearingdiv {
+    clear: both;
+    height: 30px;
+    width: 1px;
+}
 /* sidebar styles */
 
 #sidebars {
