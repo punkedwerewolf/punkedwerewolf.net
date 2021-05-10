@@ -228,7 +228,7 @@ li {
 /* This lets you use div class="column left" and "column right" for two columns */
 
 .column {
-	float: left;
+	float: right;
 }
 
 .left {
