@@ -181,7 +181,6 @@ body {
 
 
 .msg {
-    background-color:#000;
     padding:15px;
 	width: 900px;
 	margin-left: auto;
@@ -251,24 +250,35 @@ td {
 }
 
 @keyframes blinker {
-	50% {
-		opacity: 0;
-	}
+	50% { opacity: 0; }
 }
- .pic
-         {
-         -webkit-animation: mover 1s infinite  alternate;
-         animation: mover 2s infinite  alternate;
-         }
-         @-webkit-keyframes mover {
-         0% { transform: translateY(0); }
-         100% { transform: translateY(-15px); }
-         }
-         @keyframes mover {
-         0% { transform: translateY(0); }
-         100% { transform: translateY(-15px); }
-         }
-		 
+
+.pic {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+
+/* hover for index page */
+
+#myhover {
+	width: 500px; /*width of the image */
+	height: 500px; /* height of the image */
+	background:url('/images/enter.png') no-repeat;
+}
+
+#myhover:hover {
+	background:url('/images/enter1.png') no-repeat;
+}
 /* These are miscellaneous styles */
 
 a {
