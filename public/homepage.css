@@ -187,6 +187,11 @@ body {
 	margin-right: auto;
 }
 
+.updates {
+	border: solid 4px #ff0000;
+	height: 250px;
+	padding: 10px;
+}
 /* Scrollbar Styling */
 
 ::-webkit-scrollbar {
@@ -228,20 +233,7 @@ body {
 
 /* Table Styling */
 
-table {
-	width: 80%;
-	font-size: 15px;
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
-tr:nth-child(even) {
-	background-color: #ff0000;
-}
-
-td {
-	padding: 10px;
-}
 
 /* animations */
 
