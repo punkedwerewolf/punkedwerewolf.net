@@ -153,7 +153,7 @@ body {
 	text-decoration: none;
 }
 
-#nav a.current, #nav a:hover {
+#nav a:active, #nav a:hover {
 	background: #f0f0f0 url(/images/buttonbg.jpg) top left repeat-x;
 	color: #000;
 	text-decoration: none
@@ -191,11 +191,25 @@ body {
 /* Scrollbar Styling */
 
 ::-webkit-scrollbar {
-	width: 6px;
+}
+
+::-webkit-scrollbar-button{
 }
 
 ::-webkit-scrollbar-thumb {
 	background: #8E0909;
+}
+
+::-webkit-scrollbar-track {
+}
+
+::-webkit-scrollbar-track-piece {
+}
+
+::-webkit-scrollbar-corner {
+}
+
+::-webkit-resizer {
 }
 
 /* This lets you use div class="column left" and "column right" for two columns */
