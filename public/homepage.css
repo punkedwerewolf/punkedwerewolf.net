@@ -82,6 +82,8 @@ body {
     margin: 0 215px;
     height: 100%;
 	text-align: center;
+	background-color: #fff;
+	color: #000
 }
 
 #footer {
@@ -202,6 +204,8 @@ body {
 	padding: 10px;
 	overflow: auto;
 	margin: 10px;
+	background-color: #000;
+	color: #fff;
 }
 /* Scrollbar Styling */
 
@@ -315,7 +319,7 @@ strong {
 
 .span {
 	background-color: #8E0909;
-	color: #fff;
+	color: #000;
 	font-weight: bold;
 	padding: 3px;
 }
