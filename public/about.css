@@ -83,7 +83,7 @@ th, td {
 	font-family: 'verdana';
 }
 
-a {
+a, a:hover, a:active {
 	color: 8E0909;
 	text-decoration: underline;
 }
