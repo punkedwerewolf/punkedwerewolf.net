@@ -339,6 +339,7 @@ li {
 
 .sublist {
 	font-size: 15px;
+	text-indent: 50px;
 }
 
 .sublist a {
@@ -347,9 +348,10 @@ li {
 
 .subsublist {
 	font-size: 10px;
+	text-indent: 80px;
 }
 
-.index li {
+.index ul {
 	list-style-image: url('/images/nosebleed.gif');
 }
 
