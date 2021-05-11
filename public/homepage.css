@@ -326,6 +326,21 @@ li {
 #myhover:hover {
 	background:url('/images/enter1.png') no-repeat;
 }
+
+/* site index stuff */
+
+.sublist {
+	text-indent: 50px;
+}
+
+.sublist a {
+	color: white;
+}
+
+.subsublist {
+	text-indent: 80px;
+}
+
 /* These are miscellaneous styles */
 
 a {
