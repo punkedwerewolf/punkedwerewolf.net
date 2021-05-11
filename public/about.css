@@ -1,18 +1,9 @@
 /* idk what fuckery this is */
 
-#about {
-	width: 420px;
-	height: 100%;
-}
-
-.rightside {
-	width: 50%;
-	float: left;
-	border: 1px red;
-}
-
-.leftside {
-	width: 50%;
-	float: left;
-	border: 1px red;
+th, td {
+	font-size:13px; 
+	font-weight:normal; 
+	text-align:left; 
+	vertical-align:top;
+	font-family: 'verdana';
 }
