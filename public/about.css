@@ -71,6 +71,12 @@ body {
 
 /* idk what fuckery this is */
 
+table {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+
 th, td {
 	font-size:13px; 
 	font-weight:normal; 
