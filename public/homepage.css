@@ -329,9 +329,16 @@ li {
 
 /* site index stuff */
 
+.ul {
+	text-align: left;
+}
+
+.list {
+	font-size: 20px;
+}
+
 .sublist {
-	text-indent: 50px;
-	margin: 5px 0px;
+	font-size: 15px;
 }
 
 .sublist a {
@@ -339,8 +346,7 @@ li {
 }
 
 .subsublist {
-	text-indent: 80px;
-	margin: 5px 0px;
+	font-size: 10px;
 }
 
 .index li {
