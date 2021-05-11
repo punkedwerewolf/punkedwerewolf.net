@@ -1,8 +1,18 @@
 /* idk what fuckery this is */
 
-#pfp {
+#about {
+	width: 420px;
+	height: 100%;
+}
+
+.rightside {
+	width: 50%;
+	float: right;
+	border: 1px red;
+}
+
+.leftside {
+	width: 50%;
 	float: left;
-	height: 100px;
-	width: 100px;
-	margin-left: 50px;
+	border: 1px red;
 }
