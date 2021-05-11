@@ -12,3 +12,7 @@ table a {
 	color: 8E0909;
 	text-decoration: underline;
 }
+
+#left {
+	float: left;
+}
