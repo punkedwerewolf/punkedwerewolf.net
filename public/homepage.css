@@ -345,7 +345,7 @@ li {
 	list-style-position: inside;
 }
 
-.sublist a {
+.sublist a, a:hover {
 	color: white;
 }
 
