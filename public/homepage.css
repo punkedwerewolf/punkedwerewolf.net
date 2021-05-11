@@ -329,7 +329,7 @@ li {
 
 /* site index stuff */
 
-.ul ul {
+.ul {
 	text-align: left;
 	list-style-image: url('/images/nosebleed.gif');
 }
