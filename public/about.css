@@ -61,13 +61,6 @@ body {
     50% {cursor: url(/images/cursor/link1.png), pointer;}
     100% {cursor: url(/images/cursor/link2.png), pointer;}
   }
-  
-/* Meat and Potatoes (main layout stuff) */
-
-body {
-	background-color: #000000;
-	color: #ffffff;
-}
 
 /* idk what fuckery this is */
 
@@ -85,7 +78,7 @@ th, td {
 	font-family: 'verdana';
 }
 
-table a {
+a {
 	color: 8E0909;
 	text-decoration: underline;
 }
