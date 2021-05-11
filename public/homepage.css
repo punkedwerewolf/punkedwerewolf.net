@@ -336,11 +336,13 @@ li {
 
 .list {
 	font-size: 20px;
+	list-style-position: inside;
 }
 
 .sublist {
 	font-size: 15px;
 	text-indent: 50px;
+	list-style-position: inside;
 }
 
 .sublist a {
@@ -350,6 +352,7 @@ li {
 .subsublist {
 	font-size: 10px;
 	text-indent: 80px;
+	list-style-position: inside;
 }
 
 
