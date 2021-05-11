@@ -175,9 +175,39 @@ body {
 
 /* ccursor stuff */
 
- body {cursor: url('/images/cursor.gif'), auto;}
- a, a:hover {cursor: url('/images/link.gif'), auto}
+body {
+    cursor: url(/images/cursor/pointer0.png), pointer;
+    -webkit-animation: cursor 300ms infinite;
+    animation: cursor 700ms infinite;
+  }
 
+  @-webkit-keyframes cursor {
+    0% {cursor: url(/images/cursor/pointer0.png), pointer;}
+    100% {cursor: url(/images/cursor/pointer1.png), pointer;}
+  } 
+
+  @keyframes cursor {
+    0% {cursor: url(/images/cursor/pointer0.png), pointer;}
+    100% {cursor: url(/images/cursor/pointer1.png), pointer;}
+  }
+  
+  a, a:hover {
+    cursor: url(/images/cursor/link0.png), pointer;
+    -webkit-animation: link 300ms infinite;
+    animation: link 700ms infinite;
+  }
+
+  @-webkit-keyframes link {
+    0% {cursor: url(/images/cursor/link0.png), pointer;}
+    50% {cursor: url(/images/cursor/link1.png), pointer;}
+    100% {cursor: url(/images/cursor/link2.png), pointer;}
+  } 
+
+  @keyframes link {
+    0% {cursor: url(/images/cursor/link0.png), pointer;}
+    50% {cursor: url(/images/cursor/link1.png), pointer;}
+    100% {cursor: url(/images/cursor/link2.png), pointer;}
+  }
 /* silly little layouts */
 
 .center {
