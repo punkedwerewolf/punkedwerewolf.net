@@ -331,6 +331,7 @@ li {
 
 .sublist {
 	text-indent: 50px;
+	margin: 5px 0px;
 }
 
 .sublist a {
@@ -339,6 +340,11 @@ li {
 
 .subsublist {
 	text-indent: 80px;
+	margin: 5px 0px;
+}
+
+ul li {
+	list-style: none
 }
 
 /* These are miscellaneous styles */
