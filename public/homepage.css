@@ -329,8 +329,9 @@ li {
 
 /* site index stuff */
 
-.ul {
+.ul ul {
 	text-align: left;
+	list-style-image: url('/images/nosebleed.gif');
 }
 
 .list {
@@ -351,9 +352,6 @@ li {
 	text-indent: 80px;
 }
 
-.index ul {
-	list-style-image: url('/images/nosebleed.gif');
-}
 
 /* These are miscellaneous styles */
 
