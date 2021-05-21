@@ -342,7 +342,7 @@ li {
 }
 
 .sublist {
-	font-size: 15px;
+	font-size: 17px;
 	text-indent: 50px;
 	list-style-position: inside;
 }
@@ -352,7 +352,7 @@ li {
 }
 
 .subsublist {
-	font-size: 10px;
+	font-size: 15px;
 	text-indent: 80px;
 	list-style-position: inside;
 }
