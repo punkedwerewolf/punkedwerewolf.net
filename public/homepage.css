@@ -82,6 +82,8 @@ body {
     margin: 0 215px;
     height: 100%;
 	text-align: center;
+	background-color: #fafcff;
+	color: #000;
 }
 
 #footer {
