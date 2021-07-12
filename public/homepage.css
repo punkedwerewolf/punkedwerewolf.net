@@ -300,7 +300,7 @@ table {
 	margin: 0px auto;
 }
 
-table a, table a:hover {
+td a, td a:hover {
 	color: white;
 }
 
