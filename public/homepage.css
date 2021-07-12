@@ -305,7 +305,7 @@ td a, td a:hover {
 }
 
 tr:nth-child(even) {
-	background-color: grey;
+	background-color: #242526;
 }
 tr:nth-child(odd) {
 	background-color: black;
