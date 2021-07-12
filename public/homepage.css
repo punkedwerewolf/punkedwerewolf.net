@@ -225,7 +225,6 @@ body {
   margin-right: auto;
 }
 
-
 .msg {
     padding:15px;
 	width: 900px;
@@ -276,16 +275,18 @@ li {
 
 /* This lets you use div class="column left" and "column right" for two columns */
 
-.column {
-	float: right;
+.flex {
+	display: flex;
 }
 
 .left {
-	width: 50%;
+	width: 45%;
+	order: 1;
 }
 
 .right {
-	width: 50%;
+	width: 45%;
+	order: 2;
 }
 
 
