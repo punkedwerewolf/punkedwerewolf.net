@@ -240,7 +240,6 @@ body {
 	margin: 10px;
 	background-color: #000;
 	color: #fff;
-	width: 45%;
 }
 /* Scrollbar Styling */
 
@@ -292,7 +291,20 @@ li {
 
 /* Table Styling */
 
+table {
+	width: 80%;
+	font-size: 15px;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
+tr:nth-child(even) {
+	background-color: #ff0000;
+}
+
+td {
+	padding: 10px;
+}
 
 /* animations */
 
@@ -363,7 +375,7 @@ li {
 /* These are miscellaneous styles */
 
 a {
-	color: #fff;
+	color: #8E0909;
 	text-decoration: none;
 	font-weight: normal;
 }
