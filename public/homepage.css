@@ -277,6 +277,7 @@ li {
 
 .flex {
 	display: flex;
+	margin: 0px auto;
 }
 
 .left {
