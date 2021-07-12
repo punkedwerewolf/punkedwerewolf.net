@@ -296,10 +296,19 @@ table {
 	font-size: 15px;
 	border-collapse: collapse;
 	border-spacing: 0;
+	color: white;
+	margin: 0px auto;
+}
+
+table a, table a:hover {
+	color: white;
 }
 
 tr:nth-child(even) {
-	background-color: #ff0000;
+	background-color: grey;
+}
+tr:nth-child(odd) {
+	background-color: black;
 }
 
 td {
