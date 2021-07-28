@@ -414,6 +414,12 @@ strong {
 	font-weight: bold;
 	padding: 3px;
 }
+span {
+	background-color: #8E0909;
+	color: #000;
+	font-weight: bold;
+	padding: 3px;
+}
 
 /* All stuff below here is for viewing your site on different devices */
 
