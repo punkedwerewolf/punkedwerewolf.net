@@ -55,7 +55,7 @@ body {
 	font-family: 'momstypewriterregular';
 	color: #ffffff;
 	font-size: 15px;
-	line-height: 1;
+	line-height: 18px;
 	overflow-y: auto;
 	overflow-x: hidden;
 }
@@ -243,6 +243,25 @@ body {
 	background-color: #000;
 	color: #fff;
 }
+
+.flex {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	text-align: center;
+}
+
+.left {
+	width: 45%;
+	order: 1;
+}
+
+.right {
+	width: 45%;
+	order: 2;
+}
+
+
 /* Scrollbar Styling */
 
 ::-webkit-scrollbar {
@@ -273,26 +292,6 @@ body {
 li { 
 	margin: 2px;
 }
-
-/* This lets you use div class="column left" and "column right" for two columns */
-
-.flex {
-	display: flex;
-	justify-content: center;
-	margin: auto;
-	text-align: center;
-}
-
-.left {
-	width: 45%;
-	order: 1;
-}
-
-.right {
-	width: 45%;
-	order: 2;
-}
-
 
 /* Table Styling */
 
