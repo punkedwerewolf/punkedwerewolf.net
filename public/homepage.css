@@ -426,33 +426,33 @@ span {
 /* All stuff below here is for viewing your site on different devices */
 
 @media screen and (max-width: 1536px) {
-	body { zoom: 80%; }
+	body { zoom: 97%; }
 }
 
 @media screen and (max-width: 1440px) {
-	body { zoom: 75%; }
+	body { zoom: 95%; }
 }
 
 @media screen and (max-width: 1366px) {
-	body { zoom: 70%; }
+	body { zoom: 93%; }
 }
 
 @media screen and (max-width: 1280px) {
-	body { zoom: 65%; }
+	body { zoom: 90%; }
 }
 
 @media screen and (max-width: 1024px) {
-	body { zoom: 60%; }
+	body { zoom: 87%; }
 }
 
 @media screen and (max-width: 992px) {
-	body { zoom: 55%; }
+	body { zoom: 85%; }
 }
 
 @media screen and (max-width: 800px) {
-	body { zoom: 50%; }
+	body { zoom: 83%; }
 }
 
 @media screen and (max-width: 600px) {
-	body { zoom: 45%; }
+	body { zoom: 80%; }
 }
