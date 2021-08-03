@@ -179,7 +179,7 @@ body {
 
 #layout1 {
 	grid-template-columns: 80% 20%;
-	grid-column-gap: 75px;
+	grid-column-gap: 0px;
 	display: grid;
 	width: 100%;
 }
