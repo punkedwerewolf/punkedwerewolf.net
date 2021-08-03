@@ -299,22 +299,36 @@ body {
 	background: #8E0909;
 }
 
-::-webkit-scrollbar-track {
-}
-
-::-webkit-scrollbar-track-piece {
-}
-
-::-webkit-scrollbar-corner {
-}
-
-::-webkit-resizer {
-}
-
 /* list styles */
 
 li { 
 	margin: 2px;
+}
+
+.ul {
+	text-align: left;
+	list-style-image: url('/images/graphics/nukos/4444.gif');
+}
+
+.list {
+	font-size: 20px;
+	list-style-position: inside;
+}
+
+.sublist {
+	font-size: 17px;
+	text-indent: 50px;
+	list-style-position: inside;
+}
+
+.sublist a, a:hover {
+	color: white;
+}
+
+.subsublist {
+	font-size: 15px;
+	text-indent: 80px;
+	list-style-position: inside;
 }
 
 /* Table Styling */
@@ -379,35 +393,6 @@ td {
 #myhover:hover {
 	background:url('/images/enter1.png') no-repeat;
 }
-
-/* site index stuff */
-
-.ul {
-	text-align: left;
-	list-style-image: url('/images/graphics/nukos/4444.gif');
-}
-
-.list {
-	font-size: 20px;
-	list-style-position: inside;
-}
-
-.sublist {
-	font-size: 17px;
-	text-indent: 50px;
-	list-style-position: inside;
-}
-
-.sublist a, a:hover {
-	color: white;
-}
-
-.subsublist {
-	font-size: 15px;
-	text-indent: 80px;
-	list-style-position: inside;
-}
-
 
 /* These are miscellaneous styles */
 
