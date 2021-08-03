@@ -175,6 +175,30 @@ body {
 	text-decoration: none
 }
 
+/* layout with nav on right */
+
+#layout1 {
+	grid-template-columns: 80% 20%;
+	grid-column-gap: 75px;
+	display: grid;
+	width: 100%;
+}
+
+#body {
+	height: -moz-fit-content;
+	height: -webkit-fit-content;
+	height: -fit-content;
+	text-align: center;
+	
+}
+
+#navi {
+	height: 20%;
+	min-height: 350px;
+	text-align: center;
+	overflow-y: scroll;
+	border: double 4px #8E0909;
+}
 /* ccursor stuff */
 
 body {
