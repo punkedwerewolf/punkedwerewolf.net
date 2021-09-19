@@ -236,6 +236,10 @@ body {
   }
 /* silly little layouts */
 
+.artwork {
+	width: 350px;
+}
+
 .center {
   display: block;
   margin-left: auto;
