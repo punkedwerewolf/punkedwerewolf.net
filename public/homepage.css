@@ -259,7 +259,7 @@ body {
 }
 
 .updates {
-	border: solid 4px #8E0909;
+	border: double 4px #8E0909;
 	height: 250px;
 	padding: 10px;
 	overflow: auto;
