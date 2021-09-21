@@ -368,16 +368,36 @@ li {
 
 /* These are miscellaneous styles */
 
+h1 {
+    color:#000;
+    font-size:1.8em;
+    font-weight:700;
+    letter-spacing:-1px;
+}
+
+h2{
+    font-size:1.6em;
+}
+
+h3{
+    font-size:1.4em;
+    color:#8E0909;
+}
+
+p{
+    line-height:1.5em;
+}
+
 a {
 	color: #8E0909;
 	text-decoration: none;
-	font-weight: normal;
+	font-weight: 700;
 }
 
 a:hover, a:active, a:visited {
 	color: #8E0909;
-	text-decoration: none;
-	font-weight: normal;
+	text-decoration: underline;
+	font-weight: 700;
 }
 
 ::selection {
