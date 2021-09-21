@@ -54,8 +54,7 @@ body {
 	background-color: #000000;
 	font-family: Verdana,Tahoma,Arial,sans-serif;
 	color: #ffffff;
-	font-size: 15px;
-	line-height: 18px;
+	font-size: 76%;
 	overflow-y: auto;
 	overflow-x: hidden;
 }
@@ -315,51 +314,20 @@ li {
 }
 
 .list {
-	font-size: 20px;
 	list-style-position: inside;
 }
 
 .sublist {
-	font-size: 17px;
 	text-indent: 50px;
 	list-style-position: inside;
 }
 
-.sublist a, a:hover {
-	color: white;
-}
-
 .subsublist {
-	font-size: 15px;
 	text-indent: 80px;
 	list-style-position: inside;
 }
 
 /* Table Styling */
-
-table {
-	width: 80%;
-	font-size: 15px;
-	border-collapse: collapse;
-	border-spacing: 0;
-	color: white;
-	margin: 0px auto;
-}
-
-td a, td a:hover {
-	color: white;
-}
-
-tr:nth-child(even) {
-	background-color: #242526;
-}
-tr:nth-child(odd) {
-	background-color: black;
-}
-
-td {
-	padding: 10px;
-}
 
 /* animations */
 
