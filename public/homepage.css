@@ -122,12 +122,18 @@ body {
 	width: 165px;
 	float: right;
 	text-align: center;
+	color: #fff !important;
 }
 
 #left {
 	width: 165px;
 	float: left;
 	text-align: center;
+	color: #fff !important;
+}
+
+#left a, #right a {
+	color: #fff;
 }
 
 /* navbar styles */
