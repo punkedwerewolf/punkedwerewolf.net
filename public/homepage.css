@@ -203,8 +203,8 @@ body {
 }
 
 #navi {
-	height: 20%;
-	min-height: 350px;
+	height: 15%;
+	min-height: 250px;
 	text-align: center;
 	overflow-y: scroll;
 	border: double 4px #8E0909;
@@ -303,14 +303,7 @@ body {
 /* Scrollbar Styling */
 
 ::-webkit-scrollbar {
-	width: 6px;
-}
-
-::-webkit-scrollbar-button{
-}
-
-::-webkit-scrollbar-thumb {
-	background: #8E0909;
+	width: 0px;
 }
 
 /* list styles */
