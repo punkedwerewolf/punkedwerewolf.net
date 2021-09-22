@@ -136,6 +136,11 @@ body {
 	color: #fff;
 }
 
+#right ul {
+	text-align: left;
+	list-style-image: url('/images/sidebars/bullet.gif');
+	list-style-position: inside;
+}
 /* navbar styles */
 
 #nav {
