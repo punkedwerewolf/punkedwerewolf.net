@@ -333,6 +333,21 @@ li {
 
 /* Table Styling */
 
+table, th, td {
+    border: 1px solid #8E0909;
+}
+
+th, td {
+    padding: 10px;
+}
+
+table {
+	width: 90%;
+    color: #000;
+    padding: 2px;
+}
+
+
 /* animations */
 
 .blink_me {
