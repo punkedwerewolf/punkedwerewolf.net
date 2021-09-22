@@ -209,6 +209,16 @@ body {
 	overflow-y: scroll;
 	border: double 4px #8E0909;
 }
+
+/* layout with four columns */
+
+#layout2 {
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-column-gap: 10px;
+	display: grid;
+	width: 100%;
+}
+
 /* ccursor stuff */
 
 body {
@@ -247,7 +257,7 @@ body {
 /* silly little layouts */
 
 .artwork {
-	width: 350px;
+	width: 340px;
 }
 
 .center {
