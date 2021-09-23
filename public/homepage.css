@@ -214,7 +214,7 @@ body {
 
 #layout2 {
 	grid-template-columns: 25% 25% 25% 25%;
-	grid-column-gap: 30px;
+	grid-column-gap: 10px;
 	display: grid;
 	width: 100%;
 }
