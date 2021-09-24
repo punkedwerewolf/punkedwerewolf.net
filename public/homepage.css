@@ -257,7 +257,7 @@ body {
 /* silly little layouts */
 
 .artwork {
-	width: 300px;
+	width: 25%;
 	border: 1px solid black;
 	padding: 4px;
 }
