@@ -1,9 +1,3 @@
-/* CSS Variables */
-
-:root {
-	--mainborder: #ff0000;
-	}
-
 /* Loading Fonts for Use */
 
 @font-face {
@@ -38,17 +32,9 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-/* I think this is also part of the reset */
-
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
-
-/* Not entirely sure but I think this is necessary lol */
-
-* {
-	box-sizing: border-box;
 }
 
 /* Meat and Potatoes (main layout stuff) */
@@ -58,15 +44,51 @@ body {
 	background-color: black;
 	font-family: 'grinchedregular';
 	color: #ffffff;
-	font-size: 11px;
-  background-image:url('/images/shrines/ld/stars3.gif');
-  background-repeat: repeat;
-  background-attachment: fixed;
-	background-size: 10%;
-	height: 100%;
+	font-size: 15px;
 	line-height: 1;
-		padding: 0 2rem;
+	padding: 0 2rem;
 }
+
+/* space bg */
+
+.spacebg {
+	width: 100%;
+	height: 100%;
+	background-repeat: repeat;
+	position:fixed;
+	top:0px;
+	left:0px;
+	background-image: url("/images/shrines/ld/space_bg.gif");
+	will-change: transform, filter;
+	z-index:-1;
+	mix-blend-mode: screen;
+    }
+
+    .spacebg2 {
+	width: 100%;
+	height: 100%;
+	background-repeat: repeat;
+	position:fixed;
+	top:0px;
+	left:0px;
+	background-image: url("/images/shrines/ld/space_bg2.gif");
+	will-change: transform, filter;
+	z-index:-2;
+	mix-blend-mode: screen;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  body {cursor: url('/images/shrines/ld/cursor.gif'), auto;}
   a, a:hover {cursor: url('/images/shrines/ld/link.gif'), auto}
