@@ -68,15 +68,25 @@ body {
     "footer footer footer";
 }
 
-.daleft { grid-area: daleft; }
+.daleft { 
+	grid-area: daleft; 
+}
 
-.daright { grid-area: daright; }
+.daright { 
+	grid-area: daright; 
+}
 
-.header { grid-area: header; }
+.header { 
+	grid-area: header; 
+}
 
-.navigation { grid-area: navigation; }
+.navigation { 
+	grid-area: navigation; 
+}
 
-.body { grid-area: body; }
+.body { 
+	grid-area: body; 
+}
 
 #footer { 
 	grid-area: footer; 
