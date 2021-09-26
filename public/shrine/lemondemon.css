@@ -58,7 +58,7 @@ body {
   grid-template-areas:
     "daleft header daright"
     "daleft body daright"
-    "footah footah footah";
+    "footer footer footer";
 }
 
 .body { 
