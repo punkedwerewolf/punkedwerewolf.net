@@ -9,6 +9,12 @@
 
 }
 
+/* cursor shiz */ 
+
+body {cursor: url('/images/shrines/ld/cursor.gif'), auto;}
+ 
+a, a:hover {cursor: url('/images/shrines/ld/link.gif'), auto}
+
 /* this is called a CSS reset, it removes default styles from your page */
 
 html, body, div, span, applet, object, iframe,
@@ -52,35 +58,30 @@ body {
 .container {
   display: grid;
   grid-template-columns: 0.6fr 1.8fr 0.6fr;
-  grid-template-rows: 0.6fr 2.1fr 0.3fr;
+  grid-template-rows: 0.7fr 0.2fr 2.6fr 0.5fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
     "daleft header daright"
+    "daleft navigation daright"
     "daleft body daright"
     "footer footer footer";
 }
 
-.body { 
-	grid-area: body; 
-}
+.daleft { grid-area: daleft; }
 
-.daleft { 
-	grid-area: daleft; 
-}
+.daright { grid-area: daright; }
 
-.daright { 
-	grid-area: daright; 
-}
+.header { grid-area: header; }
 
-.header { 
-	grid-area: header; 
-}
+.navigation { grid-area: navigation; }
+
+.body { grid-area: body; }
 
 #footer { 
 	grid-area: footer; 
+	text-align: center;
 }
-
 
 /* space bg */
 
@@ -131,81 +132,6 @@ body {
 
 
 
-
-
- body {cursor: url('/images/shrines/ld/cursor.gif'), auto;}
-  a, a:hover {cursor: url('/images/shrines/ld/link.gif'), auto}
-
-#container {
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 15%;
-	padding-right: 15%;
-}
-
-#main {
-	display: flex;
-	height: auto;
-	min-width: 700px;
-	/* add this to fit to width of screen: height:85vh; */
-}
-
-#main>article {
-	flex: 1;
-}
-
-#main>nav {
-  order: -1;
-    flex: 0 0 11.5vw;
-    font-size: 15px;
-    padding-top:50px;
-    padding-left:25px;
-    padding-right:25px;
-    padding-bottom:50px;
-}
-
-#main>aside {
-  order: 1;
-    flex: 0 0 11.5vw;
-    font-size: 15px;
-    padding-top:50px;
-    padding-left:25px;
-    padding-right:25px;
-    padding-bottom:50px;
-}
-
-article {
-	background-repeat: repeat;
-	letter-spacing: 1.5px;
-	height: auto;
-	font-family: 'grinchedregular';
-	font-size: 16px;
-	width: 100%;
-	line-height: 22px;
-	padding-left: 65px;
-  padding-right: 65px;
-	padding-bottom: 65px;
-	padding-top: 35px;
-}
-
-footer,
-nav,
-aside {
-	padding: 0;
-	line-height: 25px;
-	font-weight: normal;
-	font-family: 'grinchedregular';
-}
-
-.rightsidebar a {
-	font-size: 12px;
-	line-height: 12px;
-	text-decoration: none;
-}
-
-#left_sidebar {
-	text-align: center;
-}
 
 
 /* Navbar styling */
