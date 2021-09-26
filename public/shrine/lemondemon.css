@@ -2,8 +2,8 @@
 
 @font-face {
     font-family: 'grinchedregular';
-    src: url('https://punkedwerewolf.neocities.org/logo-webfont.woff2') format('woff2'),
-         url('https://punkedwerewolf.neocities.org/logo-webfont.woff') format('woff');
+    src: url('/fonts/logo-webfont.woff2') format('woff2'),
+         url('fonts/logo-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
