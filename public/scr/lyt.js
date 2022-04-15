@@ -1,7 +1,7 @@
 $(function(){
-	$("#hed").load("/hed.html");
-	$("#nvw").load("/nav.html"); 
-	$("#lft").load("/lft.html");
-	$("#rgt").load("/rgt.html");
-	$("#fot").load("/fot.html");
+	$("#hed").load("/lyt/hed.html");
+	$("#nvw").load("/lyt/nav.html"); 
+	$("#lft").load("/lyt/lft.html");
+	$("#rgt").load("/lyt/rgt.html");
+	$("#fot").load("/lyt/fot.html");
 });
