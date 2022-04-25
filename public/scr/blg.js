@@ -1,14 +1,15 @@
-$('.prv').click(function () {
-    var cur = $('.pan').index($('.pan.tiv'));
+  
+$('.previous').click(function () {
+    var cur = $('.form-panel').index($('.form-panel.active'));
     if (cur!=0) {
-        $('.pan').removeClass('tiv');
-        $('.pan').eq(cur-1).addClass('tiv');
+        $('.form-panel').removeClass('active');
+        $('.form-panel').eq(cur-1).addClass('active');
     }
 });
-$('.nxt').click(function () {
-    var cur = $('.pan').index($('.pan.tiv'));
-    if (cur!=$('.pan').length-1) {
-        $('.pan').removeClass('tiv');
-        $('.pan').eq(cur+1).addClass('tiv');
+$('.next').click(function () {
+    var cur = $('.form-panel').index($('.form-panel.active'));
+    if (cur!=$('.form-panel').length-1) {
+        $('.form-panel').removeClass('active');
+        $('.form-panel').eq(cur+1).addClass('active');
     }
 });
